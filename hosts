@@ -1,0 +1,458 @@
+# AI / LLM BLOCKLIST
+# Last updated: 2025-08-03
+# Pulled from https://github.com/abixb/llm-hosts-blocklist/edit/main/hosts
+
+############
+# OpenAI 🔒
+############
+0.0.0.0 api.openai.com
+0.0.0.0 platform.openai.com
+0.0.0.0 chat.openai.com
+0.0.0.0 labs.openai.com
+0.0.0.0 auth0.openai.com
+0.0.0.0 openai.com
+0.0.0.0 cdn.openai.com
+0.0.0.0 beta.openai.com
+0.0.0.0 playground.openai.com
+0.0.0.0 help.openai.com
+0.0.0.0 status.openai.com
+0.0.0.0 developer.openai.com
+0.0.0.0 docs.openai.com
+0.0.0.0 cookbook.openai.com
+0.0.0.0 community.openai.com
+0.0.0.0 forum.openai.com
+# Azure OpenAI (add your own resource sub-domains)
+0.0.0.0 openai.azure.com
+0.0.0.0 cognitiveservices.azure.com
+
+############
+# Anthropic / Claude
+############
+0.0.0.0 api.anthropic.com
+0.0.0.0 console.anthropic.com
+0.0.0.0 claude.ai
+0.0.0.0 anthropic.com
+0.0.0.0 docs.anthropic.com
+0.0.0.0 www.anthropic.com
+0.0.0.0 support.anthropic.com
+0.0.0.0 status.anthropic.com
+0.0.0.0 cdn.anthropic.com
+0.0.0.0 app.claude.ai
+
+############
+# Google Gemini / PaLM 2 / Vertex AI
+############
+0.0.0.0 generativelanguage.googleapis.com
+0.0.0.0 gemini.google.com
+0.0.0.0 ai.google.dev
+0.0.0.0 aiplatform.googleapis.com
+0.0.0.0 bard.google.com
+0.0.0.0 makersuite.google.com
+0.0.0.0 developers.generativeai.google
+0.0.0.0 palm.googleapis.com
+0.0.0.0 vertexai.googleapis.com
+0.0.0.0 cloud.google.com
+0.0.0.0 dialogflow.googleapis.com
+0.0.0.0 automl.googleapis.com
+0.0.0.0 language.googleapis.com
+0.0.0.0 speech.googleapis.com
+0.0.0.0 vision.googleapis.com
+0.0.0.0 translate.googleapis.com
+
+############
+# Amazon Bedrock (core endpoints)
+############
+0.0.0.0 bedrock.amazonaws.com
+0.0.0.0 runtime-v1-2023-10-31.mbedrock.amazonaws.com
+0.0.0.0 bedrock-runtime.amazonaws.com
+0.0.0.0 models.bedrock.amazonaws.com
+0.0.0.0 bedrock.us-east-1.amazonaws.com
+0.0.0.0 bedrock.us-west-2.amazonaws.com
+0.0.0.0 bedrock.eu-central-1.amazonaws.com
+0.0.0.0 bedrock.ap-southeast-1.amazonaws.com
+0.0.0.0 bedrock-runtime.us-east-1.amazonaws.com
+0.0.0.0 bedrock-runtime.us-west-2.amazonaws.com
+
+############
+# Cohere
+############
+0.0.0.0 api.cohere.ai
+0.0.0.0 dashboard.cohere.ai
+0.0.0.0 cohere.ai
+0.0.0.0 docs.cohere.ai
+0.0.0.0 www.cohere.ai
+0.0.0.0 app.cohere.ai
+0.0.0.0 txt.cohere.ai
+0.0.0.0 console.cohere.ai
+0.0.0.0 production.cohere.ai
+
+############
+# AI21 Labs (Jurassic-2 / Jamba)
+############
+0.0.0.0 api.ai21.com
+0.0.0.0 ai21.com
+0.0.0.0 studio.ai21.com
+0.0.0.0 docs.ai21.com
+0.0.0.0 www.ai21.com
+0.0.0.0 app.ai21.com
+0.0.0.0 playground.ai21.com
+
+############
+# Perplexity AI
+############
+0.0.0.0 api.perplexity.ai
+0.0.0.0 docs.perplexity.ai
+0.0.0.0 labs.perplexity.ai
+0.0.0.0 perplexity.ai
+0.0.0.0 www.perplexity.ai
+0.0.0.0 app.perplexity.ai
+0.0.0.0 blog.perplexity.ai
+0.0.0.0 support.perplexity.ai
+
+############
+# Hugging Face Inference
+############
+0.0.0.0 api-inference.huggingface.co
+0.0.0.0 huggingface.co
+0.0.0.0 hf.co
+0.0.0.0 api.huggingface.co
+0.0.0.0 models.huggingface.co
+0.0.0.0 datasets.huggingface.co
+0.0.0.0 spaces.huggingface.co
+0.0.0.0 discuss.huggingface.co
+0.0.0.0 docs.huggingface.co
+0.0.0.0 inference-api.huggingface.co
+
+############
+# Replicate
+############
+0.0.0.0 api.replicate.com
+0.0.0.0 replicate.com
+0.0.0.0 r8.im
+0.0.0.0 replicate.delivery
+0.0.0.0 docs.replicate.com
+0.0.0.0 www.replicate.com
+
+############
+# Open-router & other proxy/aggregation layers
+############
+0.0.0.0 api.openrouter.ai
+0.0.0.0 openrouter.ai
+0.0.0.0 litellm.ai
+0.0.0.0 vllm.ai
+0.0.0.0 docs.openrouter.ai
+0.0.0.0 app.openrouter.ai
+0.0.0.0 docs.litellm.ai
+0.0.0.0 api.litellm.ai
+0.0.0.0 docs.vllm.ai
+
+############
+# Microsoft Copilot / Bing Chat
+############
+0.0.0.0 copilot.microsoft.com
+0.0.0.0 edgeservices.bing.com
+0.0.0.0 www.bing.com   # blocks search + AI answers
+0.0.0.0 bing.com
+0.0.0.0 sydney.bing.com
+0.0.0.0 copilot.github.com
+0.0.0.0 github.copilot.com
+0.0.0.0 copilot-proxy.githubusercontent.com
+0.0.0.0 copilot.azure.com
+0.0.0.0 copilot.microsoft365.com
+
+############
+# Meta / Llama endpoints
+############
+0.0.0.0 llama.meta.com
+0.0.0.0 ai.facebook.com
+0.0.0.0 meta.ai
+0.0.0.0 www.meta.ai
+0.0.0.0 imagine.meta.com
+0.0.0.0 ai.meta.com
+0.0.0.0 developers.facebook.com
+0.0.0.0 llama2.ai
+0.0.0.0 about.meta.com
+
+############
+# Stability AI (Stable LM & Diffusion)
+############
+0.0.0.0 api.stability.ai
+0.0.0.0 stability.ai
+0.0.0.0 dreamstudio.ai
+0.0.0.0 beta.dreamstudio.ai
+0.0.0.0 platform.stability.ai
+0.0.0.0 stablediffusionweb.com
+0.0.0.0 clipdrop.co
+
+############
+# DeepSeek / Ollama (self-host & cloud)
+############
+0.0.0.0 api.deepseek.com
+0.0.0.0 deepseek.com
+0.0.0.0 api.ollama.com
+0.0.0.0 ollama.com
+0.0.0.0 chat.deepseek.com
+0.0.0.0 platform.deepseek.com
+0.0.0.0 ollama.ai
+0.0.0.0 registry.ollama.ai
+
+############
+# Character.AI
+############
+0.0.0.0 character.ai
+0.0.0.0 beta.character.ai
+0.0.0.0 plus.character.ai
+0.0.0.0 api.character.ai
+
+############
+# Poe by Quora
+############
+0.0.0.0 poe.com
+0.0.0.0 api.poe.com
+0.0.0.0 creator.poe.com
+
+############
+# Midjourney
+############
+0.0.0.0 midjourney.com
+0.0.0.0 www.midjourney.com
+0.0.0.0 discord.com
+0.0.0.0 cdn.midjourney.com
+
+############
+# Jasper AI
+############
+0.0.0.0 jasper.ai
+0.0.0.0 api.jasper.ai
+0.0.0.0 app.jasper.ai
+0.0.0.0 chrome.jasper.ai
+
+############
+# Copy.ai
+############
+0.0.0.0 copy.ai
+0.0.0.0 api.copy.ai
+0.0.0.0 app.copy.ai
+
+############
+# Writesonic
+############
+0.0.0.0 writesonic.com
+0.0.0.0 api.writesonic.com
+0.0.0.0 app.writesonic.com
+0.0.0.0 chatsonic.com
+
+############
+# You.com
+############
+0.0.0.0 you.com
+0.0.0.0 api.you.com
+0.0.0.0 youchat.com
+
+############
+# Pi by Inflection AI
+############
+0.0.0.0 pi.ai
+0.0.0.0 inflection.ai
+0.0.0.0 api.inflection.ai
+
+############
+# Runway ML
+############
+0.0.0.0 runwayml.com
+0.0.0.0 api.runwayml.com
+0.0.0.0 app.runwayml.com
+
+############
+# Leonardo.ai
+############
+0.0.0.0 leonardo.ai
+0.0.0.0 app.leonardo.ai
+0.0.0.0 api.leonardo.ai
+
+############
+# Synthesia
+############
+0.0.0.0 synthesia.io
+0.0.0.0 api.synthesia.io
+0.0.0.0 app.synthesia.io
+
+############
+# ElevenLabs
+############
+0.0.0.0 elevenlabs.io
+0.0.0.0 api.elevenlabs.io
+0.0.0.0 beta.elevenlabs.io
+
+############
+# Mistral AI
+############
+0.0.0.0 mistral.ai
+0.0.0.0 api.mistral.ai
+0.0.0.0 console.mistral.ai
+0.0.0.0 chat.mistral.ai
+0.0.0.0 docs.mistral.ai
+
+############
+# Together AI
+############
+0.0.0.0 together.ai
+0.0.0.0 api.together.ai
+0.0.0.0 api.together.xyz
+
+############
+# Groq
+############
+0.0.0.0 groq.com
+0.0.0.0 api.groq.com
+0.0.0.0 console.groq.com
+0.0.0.0 wow.groq.com
+
+############
+# Scale AI
+############
+0.0.0.0 scale.ai
+0.0.0.0 api.scale.ai
+0.0.0.0 scale.com
+0.0.0.0 spellbook.scale.com
+
+############
+# Neeva AI
+############
+0.0.0.0 neeva.com
+0.0.0.0 api.neeva.com
+
+############
+# Kagi AI
+############
+0.0.0.0 kagi.com
+0.0.0.0 api.kagi.com
+
+############
+# Forefront AI
+############
+0.0.0.0 forefront.ai
+0.0.0.0 api.forefront.ai
+0.0.0.0 chat.forefront.ai
+
+############
+# Andi Search
+############
+0.0.0.0 andisearch.com
+0.0.0.0 api.andisearch.com
+
+############
+# Phind
+############
+0.0.0.0 phind.com
+0.0.0.0 www.phind.com
+
+############
+# Tabnine
+############
+0.0.0.0 tabnine.com
+0.0.0.0 api.tabnine.com
+0.0.0.0 app.tabnine.com
+
+############
+# Codeium
+############
+0.0.0.0 codeium.com
+0.0.0.0 api.codeium.com
+
+############
+# Replit AI / Ghostwriter
+############
+0.0.0.0 replit.com
+0.0.0.0 api.replit.com
+0.0.0.0 ai.replit.com
+
+############
+# Amazon Q
+############
+0.0.0.0 q.aws
+0.0.0.0 amazonq.aws
+
+############
+# Sourcegraph Cody
+############
+0.0.0.0 sourcegraph.com
+0.0.0.0 cody.ai
+0.0.0.0 about.sourcegraph.com
+
+############
+# Cursor AI
+############
+0.0.0.0 cursor.sh
+0.0.0.0 api.cursor.sh
+0.0.0.0 cursor.com
+
+############
+# Notion AI
+############
+0.0.0.0 notion.so
+0.0.0.0 api.notion.com
+
+############
+# Grammarly AI
+############
+0.0.0.0 grammarly.com
+0.0.0.0 api.grammarly.com
+0.0.0.0 app.grammarly.com
+
+############
+# QuillBot
+############
+0.0.0.0 quillbot.com
+0.0.0.0 api.quillbot.com
+
+############
+# Wordtune
+############
+0.0.0.0 wordtune.com
+0.0.0.0 api.wordtune.com
+
+############
+# DeepL Write
+############
+0.0.0.0 deepl.com
+0.0.0.0 api.deepl.com
+0.0.0.0 api-free.deepl.com
+
+############
+# Otter.ai
+############
+0.0.0.0 otter.ai
+0.0.0.0 api.otter.ai
+
+############
+# Fireflies.ai
+############
+0.0.0.0 fireflies.ai
+0.0.0.0 api.fireflies.ai
+
+############
+# Mem.ai
+############
+0.0.0.0 mem.ai
+0.0.0.0 api.mem.ai
+
+############
+# Adept AI
+############
+0.0.0.0 adept.ai
+0.0.0.0 api.adept.ai
+
+############
+# Codex by OpenAI (deprecated but may still be used)
+############
+0.0.0.0 codex.openai.com
+
+############
+# xAI / Grok
+############
+0.0.0.0 x.ai
+0.0.0.0 grok.x.ai
+0.0.0.0 api.x.ai
+
+# ---------- END ----------
